@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Introdução à Anatomia, Fisiologia e Patologia Humana I</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body class="sb-nav-fixed" data-spy="scroll" data-target="#sidenavAccordion" data-offset="50">
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="text-right">
+                        <button type="button" class="btn btn-close-menu btn-sm order-1 order-lg-0 d-lg-none d-md-block d-xs-block"  title="Tela Cheia" id="sidebarToggleClose">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5>Tópicos desta Unidade</h5>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link js-scroll-trigger" href="#Inicio">
+                            <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+                            Inicio
+                        </a>
+                        <a class="nav-link js-scroll-trigger" href="#Topico1">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                            Célula
+                        </a>
+                        <a class="nav-link js-scroll-trigger" href="#Topico2">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                            Estrutura das células eucarióticas
+                        </a>
+                        <a class="nav-link js-scroll-trigger" href="#Topico3">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                            Membrana Plasmática
+                        </a>
+                        <a class="nav-link js-scroll-trigger" href="#Topico4">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                            Citoplasma
+                        </a>
+                        <a class="nav-link js-scroll-trigger" href="#Topico5">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                            Núcleo
+                        </a>
+                        <a class="nav-link js-scroll-trigger" href="#Topico6">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                            Fisiologia das células eucarióticas
+                        </a>
+                        <a class="nav-link js-scroll-trigger" href="#Topico7">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                            Reprodução celular
+                        </a>
+                        <a class="nav-link js-scroll-trigger" href="#Resumo">
+                            <div class="sb-nav-link-icon"><i class="fas fa-book-reader"></i></div>
+                            Resumo
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-back" onclick="javascript:btnVoltar();">Voltar</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <nav class="navbar navbar-light bg-light d-block d-sm-none fixed-top">
+                <button type="button" class="btn btn-menu-mobile btn-sm order-1 order-lg-0"  title="Tela Cheia" id="sidebarToggle">
+                    <i class="fas fa-bars"></i>
+                  </button>
+            </nav>
+            <main>
+
+                <div id="Inicio" class="container-fluid">
+
+                    <div class="parallax">
+                        <button type="button" class="btn btn-menu btn-sm order-1 order-lg-0 d-none d-md-block" title="Tela Cheia" id="sidebarToggleMobile"> <i class="fas fa-bars"></i> </button>
+                        <div class="container text-banner">
+                            <h1>Introdução à Anatomia, Fisiologia e Patologia Humana I</h1>
+                            <h3>Células, tecido e sistemas osteomuscular e cardiorrespiratório</h3>
+                            <h5>Unidade de Estudos 1 - Células eucarióticas</h5>
+                        </div>
+
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-md-12">
+                            <button type="button" class="btn btn-creditos" data-toggle="modal" data-target="#Modal01">
+                                Créditos
+                            </button>
+                        </div>
+                    </div>
+                 
+                    <div class="row text-right">
+                        <div class="modal fade" id="Modal01" tabindex="-1" aria-labelledby="Modal01Label" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <i class="fas fa-times"></i>
+                                </button>
+                                    </div>
+                                    <div class="modal-body text-justify">
+                                        <p>O curso <b>Reciclagem para Condutores Infratores</b> é uma obra coletiva produzida pelo IBACBRASIL - Tecnologias Educacionais Ltda, CNPJ/MF nº 05.974.557/0001-47. Todos os direitos reservados.</p>
+                                        <div class="conteudo">
+                                            <p><strong>CRÉDITOS:</strong></p>
+                                            <p><strong>Produção:</strong> Luciane Lippmann, Mayra Moreira Rocha e Renata Largura de Lima Furtado.</p>
+                                            <p><strong>Ilustrações:</strong> Natasha Satie Melnick.</p>
+                                            <p></p><strong>Diagramação:</strong> Aline Pereira.</p>
+                                            <p><strong>Revisão:</strong> Caibar Pereira.</p>
+                                            <p><strong>Animações:</strong> Aline Pereira, Mônika Hegler, Natasha Satie Melnick e Renata Largura de Lima Furtado.</p>
+                                            <p><strong>Organização e Coordenação Pedagógica:</strong> Oralda Adur de Souza.</p>
+                                            <p><strong>Coordenação Geral:</strong> IBACBRASIL – Tecnologias Educacionais Ltda.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- fecha Modal Sobre o Curso -->
+                    <!-- Modal Sobre o Curso -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><strong>Objetivo da Unidade de Estudos</strong>: Apresentar as células eucarióticas, sua estrutura e funções.
+                            </p>
+                        </div>
+                        <div class="col-md-12">
+                            <p><strong>Tópicos desta Unidade</strong>:</p>
+                        </div>
+                    </div>
+                    <!-- Cards navegação -->
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 menu-cards">
+
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="assets/img/Card.jpg" alt="Tópico: Célula">
+                                <div class="overlay">
+                                    <h2>Célula</h2>
+                                    <a class="info" href="#Topico1">Clique Aqui</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-xs-12 menu-cards">
+
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="assets/img/Card.jpg" alt="Tópico: Estrutura das células eucarióticas">
+                                <div class="overlay">
+                                    <h2>Estrutura das células eucarióticas</h2>
+                                    <a class="info" href="#Topico2">Clique Aqui</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-xs-12 menu-cards">
+
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="assets/img/Card.jpg" alt="Tópico: Membrana Plasmática">
+                                <div class="overlay">
+                                    <h2>Membrana Plasmática</h2>
+                                    <a class="info" href="#Topico3">Clique Aqui</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-xs-12 menu-cards">
+
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="assets/img/Card.jpg" alt="Tópico: Citoplasma">
+                                <div class="overlay">
+                                    <h2>Citoplasma</h2>
+                                    <a class="info" href="#Topico4">Clique Aqui</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 menu-cards">
+
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="assets/img/Card.jpg" alt="Tópico: Núcleo">
+                                <div class="overlay">
+                                    <h2>Núcleo</h2>
+                                    <a class="info" href="#Topico5">Clique Aqui</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-xs-12 menu-cards">
+
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="assets/img/Card.jpg" alt="Tópico: Fisiologia das células eucarióticas">
+                                <div class="overlay">
+                                    <h2>Fisiologia das células eucarióticas</h2>
+                                    <a class="info" href="#Topico6">Clique Aqui</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-xs-12 menu-cards">
+
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="assets/img/Card.jpg" alt="Tópico: Reprodução celular">
+                                <div class="overlay">
+                                    <h2>Reprodução celular</h2>
+                                    <a class="info" href="#Topico7">Clique Aqui</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-xs-12 menu-cards">
+
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="assets/img/Card.jpg" alt="Tópico: Resumo">
+                                <div class="overlay">
+                                    <h2>Resumo</h2>
+                                    <a class="info" href="#Resumo">Clique Aqui</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card card-dialogico">
+                            <div class="row">
+                                <div class="col-md-1 text-center">
+                                    <img class="mt-4" src="assets/img/group.png" alt="Ícone grupo dialógico">
+                                </div>
+                                <div class="col-md-11 text-dialogico-inicial">
+                                    <p>Olá! O Curso <b>Anatomia, Fisiologia e Patologia Humana </b>tem o intuito de apresentar as bases da anatomia, fisiologia e patologia humana. Para começar, confira a abordagem sobre as diferentes formas de células, com destaque, nesta unidade de estudos, para as células eucarióticas. Bons estudos? </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Conteúdo do Curso -->
+                    <section id="Topico1">
+                        <h2>Célula</h2>
+                        <p>A célula constitui a unidade microscópica funcional e estrutural dos seres vivos. Sua estrutura é constituída fundamentalmente de material genético, citoplasma e membrana plasmática. A célula é capaz, por si só, de realizar as três <label class="explicativa" data-toggle="tooltip" data-placement="top" title="Processos que se realizam nos seres vivos e que concorrem para a manutenção da espécie.">funções vitais<sup>1</sup></label>: <b>nutrição</b>, <b>relação</b> e <b>reprodução</b>.</p>
+                        <p>As células são classificadas em: </p>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="container-card">
+                                        <div class="front" style="background-image: url(assets/img/bacterias.jpg)">
+                                            <div class="inner">
+                                                <img src="assets/img/swipe.png">
+                                                <p class="card-title">Células procarióticas</p>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div class="inner">
+                                                <p class="card-text">São mais simples e correspondem às células das bactérias e de algumas algas.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="container-card">
+                                        <div class="front" style="background-image: url(assets/img/celulashumanas.jpg)">
+                                            <div class="inner">
+                                                <img src="assets/img/swipe.png">
+                                                <p class="card-title">Células eucarióticas</p>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <div class="inner">
+                                                <p class="card-text">São complexas e correspondem às células dos animais e vegetais.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p><b>Quais sãos as principais diferenças entre essas células?</b></p>
+                        <p>A principal diferença entre elas é que as células <b>eucarióticas </b>possuem núcleo, citoesqueleto e organelas celulares membranosas; já as <b>procarióticas</b> não possuem essas estruturas, sendo caraterizadas pela presença de prolongamentos filamentosos, denominados fímbrias, cuja função é fixar a célula procariótica na célula hospedeira e auxiliar no processo de transferência do material genético de uma bactéria para outra – essa ação é conhecida como processo de <b>conjugação</b>, o qual é um dos responsáveis pelo surgimento de linhagens de <b>bactérias resistentes</b> à ação de alguns <b>antibióticos </b>(SANTOS, 2014). </p>
+                        <div class="text-center mb-4">
+                            <div>
+                                <img class="img-fluid" src="assets/img/CelulaEucariotica.png" alt="Figura 1 – Células procariontes e eucariontes">
+                            </div>
+                            <span>Figura 1 – Células procariontes e eucariontes</span>
+                        </div>
+                        <div class="row">
+                            <div class="card card-dialogico">
+                                <div class="row">
+                                    <div class="col-md-1 text-center">
+                                        <img class="mt-4" src="assets/img/group.png" alt="Ícone grupo dialógico">
+                                    </div>
+                                    <div class="col-md-11 text-dialogico">
+                                        <p>Para entender sobre as células eucarióticas, vamos discutir sobre as suas estruturas? </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                <section id="Topico2">
+                    <h2>Estrutura das células eucarióticas</h2>
+                    <p>As células eucarióticas são compostas por <b>membrana plasmática</b>, <b>citoplasma</b>, <b>organelas celulares</b> (mitocôndrias, complexo Golgi, retículo endosplasmático rugoso e liso, lisossomos, centríolos, cílios e flagelos) e <b>núcleo </b>(nucléolos e genes).</p>
+                    <div class="row">
+                        <div class="card card-dialogico">
+                            <div class="row">
+                                <div class="col-md-1 text-center">
+                                    <img class="mt-4" src="assets/img/group.png" alt="Ícone grupo dialógico">
+                                </div>
+                                <div class="col-md-11 text-dialogico">
+                                    <p>Veja agora como é cada uma dessas estruturas!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>             
+                </section>
+                <section id="Topico3">
+                    <h2>Membrana Plasmática</h2>
+                    <p>A membrana plasmática é uma barreira constituída de <b>fosfolipídios</b> (lipídios que contêm grupos fosfatos) e de <b>proteínas</b> (quase todas as proteínas de membrana são <b>glicoproteínas</b>). A estrutura básica dessa membrana é a <b>bicamada lipídica</b>, a qual compreende três tipos de moléculas lipídicas: fosfolipídios, colesterol e glicolipídeos.</p>
+                    <p>As glicoproteínas de membrana plasmática são classificadas em dois grandes tipos: as <em>integrais</em> e as <em>periféricas</em>.</p>
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-lg-12 mx-auto">
+                                <!-- Accordion -->
+                                <div id="accordionColors01" class="accordion shadow">
+
+                                    <!-- Accordion item 1 -->
+                                    <div class="card">
+                                        <div id="headingOne01" class="card-header shadow-sm border-0">
+                                            <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne01" aria-expanded="true" aria-controls="collapseOne01" class="d-block position-relative text-dark collapsible-link py-2">
+                                                Proteínas integrais:</a></h6>
+                                        </div>
+                                        <div id="collapseOne01" aria-labelledby="headingOne01" data-parent="#accordionColors01" class="collapse show">
+                                            <div class="card-body p-5">
+                                                <p class="  m-0">Penetram na bicamada lipídica de membrana ou atravessam essa dupla camada por meio de ácidos graxos, os quais são obtidos de gorduras (ácidos graxos saturados) e óleos (ácidos graxos não saturados) e são usados como combustível pelas células, assim como a glicose e as proteínas;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Accordion item 2 -->
+                                    <div class="card">
+                                        <div id="headingTwo01" class="card-header shadow-sm border-0">
+                                            <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo01" aria-expanded="false" aria-controls="collapseTwo01" class="d-block position-relative collapsed text-dark collapsible-link py-2">
+                                                Proteínas periféricas:</a></h6>
+                                        </div>
+                                        <div id="collapseTwo01" aria-labelledby="headingTwo01" data-parent="#accordionColors01" class="collapse">
+                                            <div class="card-body p-5">
+                                                <p class="  m-0">São ligadas de forma frouxa à superfície externa ou interna da membrana.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>A membrana plasmática permite que algumas substâncias, como as moléculas lipossolúveis (ácidos graxos, oxigênio, dióxido de carbono, entre outras), entrem e saiam da célula, mas restringe a passagem de outras substâncias, por exemplo, as moléculas hidrossolúveis (glicose e aminoácidos). Essa atividade é chamada <b>permeabilidade seletiva</b>.</p>
+                    <p>Algumas dessas proteínas formam canais que permitem a movimentação de substâncias específicas para dentro e para fora da célula. Já outras proteínas de membrana agem como <b>transportadoras</b>, tendo sua forma modificada a fim de mover substâncias de um lado para o outro da membrana.</p>
+                    <p>Veja a Figura 2 a seguir, clique sobre os números, e entenda melhor a estrutura da membrana plasmática.</p>
+                                                                <!-- Image map -->
+                                                                <div class="map mb-4">
+                                                                    <div class="map-item map-item1">
+                                                                        <a class="marker marker1" href="#marker1">1</a>
+                                        
+                                                                        <aside id="marker1" class="map-popup text-center">
+                                                                            <p class="popup-title"><b>Fosfolipídeos:</b></p>
+                                                                            <p>Cabeça e Caudas ácidos graxo.</p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item2">
+                                                                        <a class="marker marker2" href="#marker2">2</a>
+                                        
+                                                                        <aside id="marker2" class="map-popup text-center">
+                                                                            <p class="popup-title"><b>Glicolipídeo:</b></p>
+                                                                            <p>Carboidrato e Lipídeo</p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item3">
+                                                                        <a class="marker marker3" href="#marker3">3</a>
+                                        
+                                                                        <aside id="marker3 " class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Glicoproteína:</b></p>
+                                                                            <p>Carboidrato e Proteína</p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item4">
+                                                                        <a class="marker marker4" href="#marker4">4</a>
+                                        
+                                                                        <aside id="marker4" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Proteína Periférica</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item5">
+                                                                        <a class="marker marker5" href="#marker5">5</a>
+                                        
+                                                                        <aside id="marker5" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Citosol</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item6">
+                                                                        <a class="marker marker6" href="#marker6">6</a>
+                                        
+                                                                        <aside id="marker6" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Proteína Integral</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item7">
+                                                                        <a class="marker marker7" href="#marker7">7</a>
+                                        
+                                                                        <aside id="marker7" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Proteína de Canal</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item8">
+                                                                        <a class="marker marker8" href="#marker8">8</a>
+                                        
+                                                                        <aside id="marker8" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Colesterol</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item9">
+                                                                        <a class="marker marker9" href="#marker9">9</a>
+                                        
+                                                                        <aside id="marker9" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Filamentos Citoesqueleto</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item10">
+                                                                        <a class="marker marker10" href="#marker10">10</a>
+                                        
+                                                                        <aside id="marker10" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Poro</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item11">
+                                                                        <a class="marker marker11" href="#marker11">11</a>
+                                        
+                                                                        <aside id="marker11" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Bicamada Lipídica</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item12">
+                                                                        <a class="marker marker12" href="#marker12">12</a>
+                                        
+                                                                        <aside id="marker12" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Líquido Extracelular</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <div class="map-item map-item13">
+                                                                        <a class="marker marker13" href="#marker13">13</a>
+                                        
+                                                                        <aside id="marker13" class="map-popup text-center ">
+                                                                            <p class="popup-title "><b>Proteína</b></p>
+                                                                        </aside>
+                                                                    </div>
+                                                                    <img src="assets/img/MembranaPlasmatica.jpg" alt=" ">
+                                                                </div>
+                        <div class="text-center mb-4">
+                            <span>Figura 2 – Estrutura da membrana plasmática</span>
+                        </div>
+                        <p>As funções da membrana são proteger e regular a troca de substâncias entre o meio externo e o interno. </p>
+                        <p>Algumas funções da membrana dependem do tipo de proteína que está presente:</p>
+                        <ul>
+                            <li>As proteínas integrais agem como <label class="explicativa" data-toggle="tooltip" data-placement="top" title="Identificam e se ligam a uma molécula específica que, por sua vez, comanda alguma função celular (TORTORA, 2006).">receptoras<sup>2</sup></label>;</li>
+                            <li>Há algumas proteínas integrais e periféricas que atuam como <label class="explicativa" data-toggle="tooltip" data-placement="top" title="Aceleram reações químicas específicas (TORTORA, 2006).">enzimas<sup>3</sup></label>; </li>
+                            <li>As glicoproteínas e os glicolipídeos geralmente são <label class="explicativa" data-toggle="tooltip" data-placement="top" title="Enzimas que permitem a célula reconhecer outras células semelhantes (TORTORA, 2006).">marcadores de identidade celular<sup>4</sup></label>.</li>
+                        </ul>
+                        <p>A membrana determina as características próprias da célula e do tecido que a contêm. Essa característica é fundamental para os transplantes de órgãos e transfusões sanguíneas, assim como no tratamento de algumas doenças tumorais, como a leucemia. </p>
+                </section>
+                <section id="Topico4">
+                    <h2>Citoplasma</h2>
+                    <p>É a parte da célula que circunda o núcleo. No seu interior, encontramos dois tipos de elementos, o <b>citoesqueleto e o hialoplasma</b>. </p>
+                    <p>O <b>citoesqueleto</b> é responsável pela forma, pelo movimento da célula e pelos movimentos das organelas no citoplasma. Estende-se por todo o <label class="explicativa" data-toggle="tooltip" data-placement="top" title="É um fluído intracelular que circunda as organelas. Consiste em um sítio de muitas das reações químicas que mantém as estruturas celulares e permitem o crescimento celular (TORTORA, 2006).">citosol<sup>5</sup></label> e possui uma rede de três tipos de filamentos proteicos (em forma de fios): microfilamentos, filamentos intermediários e microtúbulos. </p>
+                    <p>Na Figura 3, você confere a estrutura do citoesqueleto.</p>
+                    <div class="text-center mb-4">
+                        <div>
+                            <img class="img-fluid" src="assets/img/Citoquesquelto.jpg" alt="Figura 3 – Citoesqueleto">
+                        </div>
+                        <span>Figura 3 – Citoesqueleto</span>
+                    </div>
+                    <p>O <b>hialoplasma </b>caracteriza a parte líquida do citoplasma. Interiormente, encontram-se várias estruturas conhecidas, como as organelas citoplasmáticas, que são responsáveis por realizar múltiplas funções vitais para o metabolismo celular. </p>
+                    <p>Compreendem as <b>organelas citoplasmáticas:</b></p>
+                    <ul>
+                        <li><b>Retículo endoplasmático:</b> realiza produção de proteínas e de lipídios, armazenamento de substâncias, como íons cálcio, desintoxicação de medicamentos e venenos. O retículo endoplasmático é dividido em rugoso e liso;</li>
+                        <li><b>Complexo de Golgi:</b> responsável por organizar, armazenar e distribuir as proteínas, carboidratos e lipídios sintetizados nos retículos endoplasmáticos rugoso e liso;</li>
+                        <li><b>Mitocôndrias:</b> responsáveis pela produção de energia da célula, em que a adenosina trifosfato ou ATP tem a função de realizar a respiração celular aeróbica;</li>
+                        <li><b>Lisossomos:</b> possui enzimas digestivas responsáveis por degradar as estruturas obsoletas para reutilizar suas moléculas;</li>
+                        <li><b>Centríolos:</b> auxiliam na separação do material genético na divisão celular e podem formar cílios e flagelos;</li>
+                        <li><b>Cílios e flagelos:</b> possuem a função de locomover e remover substâncias, funcionando como barreira contra patógenos externos.</li>
+                    </ul>
+                    <p>Você pode navegar pelo hialoplasma pelo computador ou pelo celular.</p>
+                    <p>Pelo computador use seu mouse e seja curioso.</p>
+                    <div class="">
+
+                    </div>
+                    <div style="margin: 0; overflow: hidden;">
+                        
+                    </div>
+                    
+                    <div id="modelo3d" class="text-center">
+                        <div class="progress-bar hide" slot="progress-bar">
+                            <div class="update-bar"></div>
+                        </div>
+                      
+                        <model-viewer src="assets/3d/celulaeucarionte/celulareucarionte.glb" camera-controls camera-orbit="23.3deg 67.7deg 0.139m" shadow-intensity="1.2" shadow-softness="1" ar ar-scale="fixed">
+                            <button class="Hotspot" slot="hotspot-5" data-position="0.011724785842596668m 0.048210405777758994m 0.05463666417167842m" data-normal="-0.7902890876739838m -0.05258510165097894m 0.6104735579759198m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">Cílios</div>
+                            </button><button class="Hotspot" slot="hotspot-6" data-position="0.03786450222900979m 0.047118931457317936m 0.053388230173885456m" data-normal="0.8557127166650288m -0.5004187690260579m 0.1316692908168077m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">Centríolos</div>
+                            </button><button class="Hotspot" slot="hotspot-7" data-position="0.06398804017704464m 0.040279220208248576m 0.03182875053918735m" data-normal="0.8539122515742824m -0.5110381556355446m 0.09835583407180382m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">Complexo de Golgi</div>
+                            </button><button class="Hotspot" slot="hotspot-8" data-position="0.07568314253431678m 0.02422600950999998m 0.022023987111110435m" data-normal="0.5945634374975162m 0.8038972123764299m 0.015607393265456989m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">Mitocôndrias</div>
+                            </button><button class="Hotspot" slot="hotspot-9" data-position="0.03480126333994776m 0.05631087776787248m 0.009588209575353168m" data-normal="0.2699094462436626m -0.13744564519740035m 0.9530254904485556m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">Retículo Endoplasmático</div>
+                            </button><button class="Hotspot" slot="hotspot-10" data-position="0.0523443196755875m 0.039120948084277116m 0.011028162924393015m" data-normal="0.31704719295146727m 0.9467568206552512m -0.055969634484742466m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">Lisossomos</div>
+                            </button>
+                            <button slot="ar-button" style="background-color: white; width:150px; padding:10px;">
+                                👋 Ativar o AR
+                            </button>
+                        </model-viewer>
+                    </div>
+               </section>
+                <section id="Topico5">
+                    <h2>Núcleo</h2>
+                    <p>É a parte da célula que contém o <b>material genético</b>. O núcleo se encarrega de regular o mecanismo celular, bem como a reprodução da célula. Ele costuma ter a forma esférica e se situar no centro ou na parte inferior da célula.</p>
+                    <p>O núcleo é formado por uma membrana nuclear (<b>envoltório nuclear</b>) que, diferentemente da membrana plasmática, possui canais ou poros que permitem a comunicação com o citoplasma. Essa membrana delimita uma região denominada <b>nucleoplasma</b>, e dentro desta são encontradas estruturas especializadas, tais como:</p>
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-lg-12 mx-auto">
+                                <!-- Accordion -->
+                                <div id="accordionColors" class="accordion shadow">
+
+                                    <!-- Accordion item 1 -->
+                                    <div class="card">
+                                        <div id="headingOne" class="card-header shadow-sm border-0">
+                                            <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="d-block position-relative text-dark collapsible-link py-2">
+                                                Nucléolos:</a></h6>
+                                        </div>
+                                        <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionColors" class="collapse show">
+                                            <div class="card-body p-5">
+                                                <p class="  m-0">Compostos por proteínas, DNA e RNA e são os sítios de formação dos ribossomos, os quais deixam o núcleo e participam da síntese de proteínas no citoplasma;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Accordion item 2 -->
+                                    <div class="card">
+                                        <div id="headingTwo" class="card-header shadow-sm border-0">
+                                            <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark collapsible-link py-2">
+                                                Genes:</a></h6>
+                                        </div>
+                                        <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionColors" class="collapse">
+                                            <div class="card-body p-5">
+                                                <p class="  m-0">São as unidades hereditárias da célula que controlam a estrutura e orientam grande parte das funções da célula. Os genes permanecem dispostos em fila única ao longo dos <label class="explicativa" data-toggle="tooltip" data-placement="top" title="As células humanas somáticas possuem 46 cromossomos, 23 herdados de cada genitor. Os 46 cromossomos aparecem como uma massa granular difusa. Chamada cromatina (TORTORA, 2006).">cromossomos<sup>6</sup></label>. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mb-4">
+                        <div>
+                            <img class="img-fluid" src="assets/img/Nucleo.jpg" alt="Figura 5 – Núcleo">
+                        </div>
+                        <span>Figura 5 – Núcleo</span>
+                    </div>
+                    <p>Agora que você conheceu a estrutura das células eucarióticas, poderá saber, na sequência, sobre as funções dessa célula, ou seja, a sua fisiologia. </p>
+                </section>
+                <section id="Topico6">
+                    <h2>Fisiologia das células eucarióticas</h2>
+                    <p>As principais funções das células eucarióticas são o <b>transporte</b> e a <b>reprodução celular</b>. Veja a seguir:</p>
+                    <h4>Transporte celular</h4>
+                    <p>As células eucarióticas possuem capacidade de obter nutrientes do líquido que as circundam. Para isso, os nutrientes atravessam a membrana celular por <b>dois tipos diferentes de transporte</b>.</p>
+                    <p>Antes de conhecer os tipos de transporte, é necessário que você compreenda como é a célula em seu interior para entender para qual local as células podem ser transportadas. Vamos lá! </p>
+                    <p>As células possuem em seu interior <b>dois tipos de líquido</b>, que são chamados de <label class="explicativa" data-toggle="tooltip" data-placement="top" title="O LIC se encontra dentro da célula e é considerado seu citosol."><b>líquido intracelular</b> (LIC)<sup>7</sup></label> e <label class="explicativa" data-toggle="tooltip" data-placement="top" title="O LEC apresenta-se fora da célula."><b>líquido extracelular</b> (LEC)<sup>8</sup></label>. Quando está nas regiões microscópicas, entre as células dos tecidos, o LEC é denominado <b>líquido intersticial</b>.</p>
+                    <p>Em vasos sanguíneos, o LEC é denominado <b>plasma</b>. Quando se encontra em vasos linfáticos, é chamado de <b>linfa </b>e, se está dentro e ao redor do encéfalo e da medula espinhal, é conhecido por <b>líquido cerebrospinal</b> (LCS).</p>
+                    <div class="row">
+                        <div class="card card-dialogico">
+                            <div class="row">
+                                <div class="col-md-1 text-center">
+                                    <img class="mt-4" src="assets/img/group.png" alt="Ícone grupo dialógico">
+                                </div>
+                                <div class="col-md-11 text-dialogico">
+                                    <p>Conheça alguns termos relativos aos líquidos: </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>As substâncias dissolvidas nos líquidos do organismo humano são os gases, os nutrientes, os íons etc. Toda substância dissolvida em um líquido é denominado <b>soluto</b>, e o líquido no qual ele é dissolvido chama-se <b>solvente</b>. A quantidade de um soluto em um solvente é a sua <b>concentração</b>, e um <b>gradiente de concentração</b> significa a diferença na concentração entre duas áreas diferentes.</p>
+                    <p>Quando o soluto se move de uma área de alta concentração (onde há mais solutos) para uma área de baixa concentração (onde há menos solutos), diz-se que ele se move para <b>baixo </b>ou com o <b>gradiente de concentração</b>.</p>
+                    <p>Já os solutos que se movem de uma área de baixa concentração para uma área de alta concentração, diz-se que se movimentam para <b>cima </b>ou contra o <b>gradiente de concentração</b>.</p>
+                    <div class="text-center mb-4">
+                        <div>
+                            <img class="img-fluid" src="assets/img/MovimentoSoluto.jpg" alt="Figura 6 – Movimentos do soluto.">
+                        </div>
+                        <span>Figura 6 – Movimentos do soluto.</span>
+                    </div>
+                    <p>Sabe-se que substâncias como a glicose se movimentam por meio de membranas celulares e por processos de transportes <b>ativos</b> e <b>passivos</b>. A seguir, você vê como se dá cada um desses processos.</p>
+                    <h4>Difusão passiva:</h4>
+                    <p>é caracterizada pela passagem de substâncias lipossolúveis pela camada lipídica através da membrana plasmática, mediante movimento das moléculas a partir do gradiente de concentração. Como exemplos de difusão passiva, encontramos a osmose, a diálise e a filtração. A osmose compreende o processo pelo qual o líquido se movimenta através de uma membrana semipermeável de uma área de baixa concentração para uma área de alta concentração até que os dois lados tenham a mesma concentração de soluto. A diálise consiste na modalidade de remoção de sódio e líquido do corpo. E a filtração é o movimento das moléculas de água e de solutos através da pressão hidrostática gerada pelo sistema cardiovascular.</p>
+                    <div class="text-center mb-4">
+                        <div>
+                            <img class="img-fluid" src="assets/img/DifusaoPassiva.jpg" alt="Figura 7 – Difusão passiva.">
+                        </div>
+                        <span>Figura 7 – Difusão passiva.</span>
+                    </div>
+                    <h4>Difusão facilitada: </h4>
+                    <p>Nesse processo, uma proteína integral de membrana auxilia uma substância a se mover através da membrana. A proteína pode ser tanto um canal de membrana como um transportador.</p>
+                    <div class="text-center mb-4">
+                        <div>
+                            <img class="img-fluid" src="assets/img/DifusaoFinal.jpg" alt="Figura 8 – Difusão facilitada.">
+                        </div>
+                        <span>Figura 8 – Difusão facilitada</span>
+                    </div>
+                    <h4>Transporte ativo: </h4>
+                    <p>É a passagem de substâncias e nutrientes através da membrana contra o gradiente de concentração, o que requer consumo de energia, diferentemente do transporte passivo. Como exemplos de transporte ativo, podemos citar a bomba de íons, a endocitose (animação 5) e a fagocitose. A bomba de íon é denominada também de bomba de sódio-potássio. A concentração de sódio é maior no LEC e a concentração de potássio é maior no LIC. Essa situação é compensada pela bomba de sódio-potássio, que captura os íons sódio no citoplasma e bombeia-os para o LEC. As proteínas capturam os íons potássio (K+) e os bombeiam para o LIC. A fagocitose é o processo de ingestão e digestão celular de corpos estranhos.</p>
+                    <div class="text-center mb-4">
+                        <div>
+                            <img class="img-fluid" src="assets/img/TransporteAtivo.jpg" alt="Figura 9 – Transporte ativo (endocitose).">
+                        </div>
+                        <span>Figura 9 – Transporte ativo (endocitose)</span>
+                    </div>               
+                </section>
+                <section id="Topico7">
+                    <h2>Reprodução celular</h2>
+                    <p>A <b>segunda principal função das células eucarióticas é a reprodução</b>, por meio de mecanismos pelos quais a <label class="explicativa" data-toggle="tooltip" data-placement="top" title="Aquela que é capaz de se dividir e formar células-filhas.">célula-mãe<sup>9</sup></label> se divide e transmite a informação genética a suas células-filhas. Os dois mecanismos de reprodução celular são a <b>mitose</b> e a <b>meiose</b>.</p>
+                    <div class="row">
+                        <div class="card card-dialogico">
+                            <div class="row">
+                                <div class="col-md-1 text-center">
+                                    <img class="mt-4" src="assets/img/group.png" alt="Ícone grupo dialógico">
+                                </div>
+                                <div class="col-md-11 text-dialogico">
+                                    <p>Você poderá ver aqui a função de reprodução celular da célula eucarionte.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-lg-12 mx-auto">
+                                <!-- Accordion -->
+                                <div id="accordionColors03" class="accordion shadow">
+
+                                    <!-- Accordion item 1 -->
+                                    <div class="card">
+                                        <div id="headingOne03" class="card-header shadow-sm border-0">
+                                            <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne03" aria-expanded="true" aria-controls="collapseOne03" class="d-block position-relative text-dark collapsible-link py-2">
+                                                Mitose:</a></h6>
+                                        </div>
+                                        <div id="collapseOne03" aria-labelledby="headingOne03" data-parent="#accordionColors03" class="collapse show">
+                                            <div class="card-body p-5">
+                                                <p class="  m-0">A mitose consiste no mecanismo de reprodução celular mediante o qual uma célula-mãe se divide para dar lugar a duas células-filhas com a mesma dotação genética que ela. O organismo recorre à mitose quando necessita fazer crescer ou reparar um tecido.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Accordion item 2 -->
+                                    <div class="card">
+                                        <div id="headingTwo03" class="card-header shadow-sm border-0">
+                                            <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo03" aria-expanded="false" aria-controls="collapseTwo03" class="d-block position-relative collapsed text-dark collapsible-link py-2">
+                                                Meiose:</a></h6>
+                                        </div>
+                                        <div id="collapseTwo03" aria-labelledby="headingTwo03" data-parent="#accordionColors03" class="collapse">
+                                            <div class="card-body p-5">
+                                                <p class="  m-0">É o mecanismo de replicação celular em que de uma célula-mãe são obtidas quatro células-filhas, cuja dotação cromossômica é a metade da que carrega a progenitora.</p>
+                                                <p class="  m-0">Essa meia dotação cromossômica é denominada <b>haploide</b>. Isso ocorre na fecundação: ao unirem-se os gametas femininos e masculinos, forma-se uma nova célula (zigoto) cuja dotação cromossômica seja a soma dos dois gametas − 46 cromossomos (dois gametas).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                    <!-- Resumo -->
+                    <section id="Resumo">
+                        <div class="row">
+                            <div class="card card-dialogico">
+                                <div class="row">
+                                    <div class="col-md-1 text-center">
+                                        <img class="mt-4" src="assets/img/group.png" alt="Ícone grupo dialógico">
+                                    </div>
+                                    <div class="col-md-11 text-dialogico-inicial">
+                                        <p>Caro aluno(a), após a leitura do texto apresentado nesta Unidade de Estudo, chegou a hora de você fazer a fixação desses conteúdos. Prossiga com seus estudos respondendo aos exercícios e, caso tenha dúvidas, não deixe de enviá-las para serem esclarecidas. Bons estudos! 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Referencias -->
+                        <div class="row referencias">
+                            <div class="col-md-12">
+                                <button type="button" class="btn btn-creditos" data-toggle="modal" data-target="#Modal02">
+                                        Referências
+                                    </button>
+                            </div>
+                        </div>
+                        <div class="row text-right">
+                            <div class="modal fade" id="Modal02" tabindex="-1" aria-labelledby="Modal02Label" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title " id="Modal02Label ">Referências</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                             <i class="fas fa-times"></i>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body text-justify">
+                                            <p>GALINDO, C. et al. <b>Enfermagem – Cuidados fundamentais</b> anatomia, isiologia e patologia humana. v. 1. Curitiba: Base Editorial, 2010. </p>
+                                            <p>GALINDO, C. et al. <b>Anatomia, fisiologia e patologia humana</b>. São Paulo: Macmillan Iberia S.A., 2010. </p>
+                                            <p>HINKLE, J. L.; CHEEVER, K. H. <b>Brunner e Sudarth</b>: tratado de enfermagem medico-cirúrgica. 13. ed, v. 1. Rio de Janeiro: Guanabara Koogan, 2016.</p>
+                                            <p>SANTOS, D. Conjugação bacteriana. <b>Blog do Prof. Djalma Santos</b>, 15 jun. 2014. Disponível em: <a target="_blank" href="https://djalmasantos.wordpress.com/2014/06/15/conjugacao-bacteriana/">https://djalmasantos.wordpress.com/2014/06/15/conjugacao-bacteriana/</a>. Acesso em: 3 ago. 2020.</p>
+                                            <p>TORTORA, G. J.; DERRICKSON, B. <b>Corpo humano</b>: fundamentos de anatomia e fisiologia. 8. ed. Porto Alegre: Artmed, 2012.</p>
+                                            <p>TORTORA, G. J.; GRABOWSKI, S. R. <b>Corpo humano</b>: fundamentos de anatomia e fisiologia. 6. ed. Porto Alegre: Artmed, 2006. </p>
+                                            <p></p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fim Referencias -->
+                    </section>
+                    <!-- Fim Resumo -->
+                    <!-- Fim Conteúdo do Curso -->
+        </div>
+        <a id="subirTopo">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        </main>
+    </div>
+
+    <script src="js/jquery.3.2.1.min.js"></script>
+    <!-- <script src="js/model-viewer.js"></script> -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
